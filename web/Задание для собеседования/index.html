@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<link rel="stylesheet"  href="style.css">
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src ="script.js"></script>
+	<title>REGISTER</title>
+</head>
+
+<body>
+	<form action="" method="post" class="form js-form-validate">
+ 		<div class="conteiner" id="conteiner">
+ 			<div class="header">
+ 				<h1>SIGH UP</h1>
+ 			</div>
+ 			<div class="Form">
+    			<input type="text" placeholder="First name" name="Form" id="fn"  required>
+    		</div>
+    		<div class="Form">
+    			<input type="text" placeholder="Last name" name="Form" id="ln" required>
+    		</div>
+    		<div class="Flag">
+    			<span>Gender</span>
+    			<input type="radio" name="flag" id="flag" value="Male" checked required><span class="black">Male</span>
+    			<input type="radio" name="flag" id="flag" color=pink value="Female" required><span class="black">Female</span>
+    		</div>
+    		<div class="age">
+    			<span>Age</span>
+				<input type="number" name="age" value="10" step=1 min=10 max=100 id="age" required> 
+    		</div>
+    		<div class="mail">
+    			<p>Email</p>
+    			<input type="Email" placeholder="someone@example.com" name="mail" id="mail" required>
+    		</div>
+    		<div class="password">
+    			<p>Password</p>
+    			<input type="password" name="pass" id="pass" required>
+    			<p class="qwe">Confirm Password</p>
+    			<input type="password" name="pass" id="pass2" required>
+    		</div>
+    		<div class="button">
+    			<input value="Sign Up" type="submit" name="button" alt="Sign Up" id="button" onclick="qwe()">
+    		</div>
+ 		</div>
+	</form>
+
+</body>

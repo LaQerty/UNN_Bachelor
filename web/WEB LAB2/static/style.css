@@ -1,0 +1,74 @@
+.body {
+	background: url("Image/img.jpg") center no-repeat;
+	width: 99%;
+	height: 98.3vh;
+	background-size: cover;
+	position: relative;
+}
+.poisk{
+	position: absolute;
+	left: 75%;
+	top: 10%;
+}
+.return{
+	position: absolute;
+	left: 4%;
+	top: 10%;
+}
+.newBook{
+	position: absolute;
+	left: 4%;
+	top: 45%;
+}
+.qwe{
+	position: absolute;
+	left: 37%;
+	top: 85%;
+}
+.q{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 24.5px;
+	font-weight: 200;
+	color: #fff;
+	opacity: .8;
+	left: 70%;
+}
+input[type=text]{
+  width: 390px;
+  font-size: 20px;
+  display: flex;
+  border:none;
+  outline: none;
+  border-bottom: 2px solid grey;
+  opacity: .7;
+  margin-bottom: 15px;
+  left: 70%;
+}
+input[type=button]{
+	padding: 15px 70px;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	margin: 15px 100px;
+	opacity: .7;
+} 
+table {
+    border-collapse: collapse;
+    background-color: rgba(255,255,255,0.7);
+}
+tr:first-child td {
+	border: 2px solid black;
+	background-color: rgba(192,192,192,0.7);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+td {
+	border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    opacity: 1;
+    color:black;
+}

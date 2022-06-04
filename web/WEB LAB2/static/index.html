@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<link rel="stylesheet"  href="style.css">
+	<script src ="scripts.js"></script>
+	<script type="text/javascript" src="data.json"></script>
+	
+	<title>MY_LIBRARY</title>
+</head>
+
+<body class="body">
+	<div class="poisk">
+		<p class="q">Введите поисковые данные</p>
+		<input type="text" placeholder="Наименование книги" name="Form" id="name">
+    	<input type="text" placeholder="Код ISBN"           name="Form" id="isbn">
+    	<input type="text" placeholder="Автор"              name="Form" id="writer">
+    	<input type="text" placeholder="Код издания"        name="Form" id="kod">
+    	<input type="text" placeholder="Издательство"       name="Form" id="izd">
+    	<input type="button" value="Найти" name="" onclick="poisk()">
+	</div>
+	<div class="return">
+		<p class="q">Вернуть книгу</p>
+		<input type="text" placeholder="Наименование книги" name="Form" id="name1">
+    	<input type="text" placeholder="Код ISBN"           name="Form" id="isbn1">
+    	<input type="button" value="Вернуть" name="" onclick="add()">
+	</div>
+	<div class="newBook">
+		<p class="q">Добавить новую книгу</p>
+		<input type="text" placeholder="Наименование книги" name="Form" id="name2">
+    	<input type="text" placeholder="Код ISBN"           name="Form" id="isbn2">
+    	<input type="text" placeholder="Автор"              name="Form" id="writer2">
+    	<input type="text" placeholder="Код издания"        name="Form" id="kod2">
+    	<input type="text" placeholder="Издательство"       name="Form" id="izd2">
+    	<input type="text" placeholder="Количество"         name="Form" id="count">
+    	<input type="button" value="Добавить" name="" onclick="newBook()">
+	</div>
+	<div class="cee">
+		<input type="button" id="qwe" class="qwe" value="Очистить" name="" onclick="nice()">
+    </div>
+</body>
