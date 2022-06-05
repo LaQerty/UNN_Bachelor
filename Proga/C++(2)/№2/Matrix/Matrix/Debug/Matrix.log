@@ -1,0 +1,7 @@
+﻿  MyForm.cpp
+c:\users\user\desktop\3\№2\matrix\matrix\myform.h(381): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+c:\users\user\desktop\3\№2\matrix\matrix\myform.h(419): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+c:\users\user\desktop\3\№2\matrix\matrix\myform.h(453): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+c:\users\user\desktop\3\№2\matrix\matrix\myform.h(494): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Matrix.vcxproj -> C:\Users\user\Desktop\3\№2\Matrix\Debug\Matrix.exe

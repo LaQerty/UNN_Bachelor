@@ -1,0 +1,6 @@
+﻿  MyForm.cpp
+c:\users\user\desktop\3\цельный №1\project1\project1\header.h(17): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\3\цельный №1\project1\project1\header.h(20): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\3\цельный №1\project1\project1\header.h(14): warning C4101: i: неиспользованная локальная переменная
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Project1.vcxproj -> C:\Users\user\Desktop\3\Цельный №1\Project1\Debug\Project1.exe

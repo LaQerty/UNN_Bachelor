@@ -1,0 +1,9 @@
+﻿  ARRV.cpp
+c:\users\user\desktop\3\№3\arrv\arrv\cpoliz.h(22): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\3\№3\arrv\arrv\cpoliz.h(24): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\3\№3\arrv\arrv\arrv.cpp(6): warning C4101: e: неиспользованная локальная переменная
+c:\users\user\desktop\3\№3\arrv\arrv\arrv.cpp(6): warning C4101: f: неиспользованная локальная переменная
+c:\users\user\desktop\3\№3\arrv\arrv\arrv.cpp(6): warning C4101: q: неиспользованная локальная переменная
+c:\users\user\desktop\3\№3\arrv\arrv\arrv.cpp(6): warning C4101: w: неиспользованная локальная переменная
+c:\users\user\desktop\3\№3\arrv\arrv\arrv.cpp(6): warning C4101: d: неиспользованная локальная переменная
+  ARRV.vcxproj -> C:\Users\user\Desktop\3\№3\ARRV\Debug\ARRV.exe

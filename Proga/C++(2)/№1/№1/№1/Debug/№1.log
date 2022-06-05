@@ -1,0 +1,5 @@
+﻿  TBitField.cpp
+c:\users\user\desktop\3\№1\№1\№1\tbitfield.cpp(8): warning C4101: e: неиспользованная локальная переменная
+c:\users\user\desktop\3\№1\№1\№1\tbitfield.cpp(8): warning C4101: q: неиспользованная локальная переменная
+c:\users\user\desktop\3\№1\№1\№1\tbitfield.cpp(8): warning C4101: w: неиспользованная локальная переменная
+  №1.vcxproj -> C:\Users\user\Desktop\3\№1\№1\Debug\№1.exe

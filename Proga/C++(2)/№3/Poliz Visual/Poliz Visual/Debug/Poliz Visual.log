@@ -1,0 +1,6 @@
+﻿  MyForm.cpp
+c:\users\user\desktop\3\№3\poliz visual\poliz visual\arrv.h(217): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\3\№3\poliz visual\poliz visual\arrv.h(219): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\3\№3\poliz visual\poliz visual\myform.h(205): warning C4018: <: несоответствие типов со знаком и без знака
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Poliz Visual.vcxproj -> C:\Users\user\Desktop\3\№3\Poliz Visual\Debug\Poliz Visual.exe

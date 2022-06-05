@@ -1,0 +1,8 @@
+﻿  Tset.cpp
+c:\users\user\desktop\3\№2\№2\tset.h(15): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\3\№2\№2\tset.h(17): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\3\№2\№2\tset.h(12): warning C4101: i: неиспользованная локальная переменная
+c:\users\user\desktop\3\№2\№2\tset.cpp(8): warning C4101: e: неиспользованная локальная переменная
+c:\users\user\desktop\3\№2\№2\tset.cpp(8): warning C4101: q: неиспользованная локальная переменная
+c:\users\user\desktop\3\№2\№2\tset.cpp(8): warning C4101: w: неиспользованная локальная переменная
+  №2.vcxproj -> C:\Users\user\Desktop\3\№2\Debug\№2.exe
