@@ -1,0 +1,5 @@
+﻿  complex.cpp
+c:\users\user\desktop\с++\complex\complex\delit.h(10): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\с++\complex\complex\delit.h(13): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\с++\complex\complex\complex.h(96): warning C4018: <: несоответствие типов со знаком и без знака
+  complex.vcxproj -> C:\Users\user\Desktop\С++\Complex\Debug\complex.exe

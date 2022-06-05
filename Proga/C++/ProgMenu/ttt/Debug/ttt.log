@@ -1,0 +1,17 @@
+﻿  Lib.cpp
+c:\users\user\desktop\с++\progmenu\ttt\lib.cpp(60): warning C4101: midle: неиспользованная локальная переменная
+c:\users\user\desktop\с++\progmenu\ttt\lib.cpp(131): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\с++\progmenu\ttt\lib.cpp(134): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\с++\progmenu\ttt\lib.cpp(171): warning C4018: <: несоответствие типов со знаком и без знака
+  Soure.cpp
+c:\users\user\desktop\с++\progmenu\ttt\soure.cpp(103): warning C4101: k: неиспользованная локальная переменная
+c:\users\user\desktop\с++\progmenu\ttt\soure.cpp(125): warning C4101: i: неиспользованная локальная переменная
+c:\users\user\desktop\с++\progmenu\ttt\soure.cpp(145): warning C4101: L: неиспользованная локальная переменная
+c:\users\user\desktop\с++\progmenu\ttt\soure.cpp(145): warning C4101: f: неиспользованная локальная переменная
+c:\users\user\desktop\с++\progmenu\ttt\soure.cpp(145): warning C4101: s: неиспользованная локальная переменная
+c:\users\user\desktop\с++\progmenu\ttt\soure.cpp(165): warning C4101: l: неиспользованная локальная переменная
+c:\users\user\desktop\с++\progmenu\ttt\soure.cpp(191): warning C4101: l: неиспользованная локальная переменная
+c:\users\user\desktop\с++\progmenu\ttt\soure.cpp(207): warning C4101: len: неиспользованная локальная переменная
+c:\users\user\desktop\с++\progmenu\ttt\soure.cpp(207): warning C4101: l: неиспользованная локальная переменная
+  Создание кода...
+  ttt.vcxproj -> C:\Users\user\Desktop\С++\ProgMenu\Debug\ttt.exe

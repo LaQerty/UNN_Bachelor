@@ -1,0 +1,9 @@
+﻿  Test.cpp
+c:\users\user\desktop\с++\kv_ur\kv_ur\urav.h(43): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\user\desktop\с++\kv_ur\kv_ur\urav.h(51): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\user\desktop\с++\kv_ur\kv_ur\urav.h(55): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\user\desktop\с++\kv_ur\kv_ur\urav.h(56): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\user\desktop\с++\kv_ur\kv_ur\urav.h(59): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\user\desktop\с++\kv_ur\kv_ur\urav.h(60): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\user\desktop\с++\kv_ur\kv_ur\urav.h(64): warning C4715: kv_ur::answer: значение возвращается не при всех путях выполнения
+  Kv_Ur.vcxproj -> C:\Users\user\Desktop\С++\Kv_Ur\Debug\Kv_Ur.exe

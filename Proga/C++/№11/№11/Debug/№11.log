@@ -1,0 +1,10 @@
+﻿  Source.cpp
+c:\users\user\desktop\с++\№11\№11\source.cpp(21): warning C4305: аргумент: усечение из "int" в "_Elem"
+          with
+          [
+              _Elem=char
+          ]
+c:\users\user\desktop\с++\№11\№11\source.cpp(21): warning C4309: аргумент: усечение константного значения
+c:\users\user\desktop\с++\№11\№11\source.cpp(31): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\с++\№11\№11\source.cpp(13): warning C4101: len: неиспользованная локальная переменная
+  №11.vcxproj -> C:\Users\user\Desktop\С++\№11\Debug\№11.exe

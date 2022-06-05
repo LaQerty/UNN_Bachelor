@@ -1,0 +1,6 @@
+﻿  MyForm.cpp
+c:\users\user\desktop\с++\parovoz\parovoz\pr.h(190): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\user\desktop\с++\parovoz\parovoz\pr.h(191): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\user\desktop\с++\parovoz\parovoz\pr.h(192): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Parovoz.vcxproj -> C:\Users\user\Desktop\С++\Parovoz\Debug\Parovoz.exe

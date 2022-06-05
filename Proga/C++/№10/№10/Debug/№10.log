@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\user\desktop\с++\№10\№10\source.cpp(21): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\с++\№10\№10\source.cpp(24): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\с++\№10\№10\source.cpp(8): warning C4101: len: неиспользованная локальная переменная
+  №10.vcxproj -> C:\Users\user\Desktop\С++\№10\Debug\№10.exe
