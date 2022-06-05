@@ -1,0 +1,11 @@
+﻿  MyForm.cpp
+c:\users\user\desktop\3\№6\plex\project1\project1\tbase.h(239): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\user\desktop\3\№6\plex\project1\project1\tbase.h(501): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\3\№6\plex\project1\project1\tbase.h(519): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\3\№6\plex\project1\project1\myform.h(368): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\3\№6\plex\project1\project1\myform.h(442): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\3\№6\plex\project1\project1\myform.h(467): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\3\№6\plex\project1\project1\myform.h(475): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\3\№6\plex\project1\project1\tbase.h(249): warning C4715: TLine::IsFigure: значение возвращается не при всех путях выполнения
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Project1.vcxproj -> C:\Users\user\Desktop\3\№6\Plex\Project1\Debug\Project1.exe

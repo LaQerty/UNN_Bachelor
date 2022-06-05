@@ -1,0 +1,9 @@
+﻿  MyForm.cpp
+c:\users\user\desktop\3\№4\link visual\link visual\myform.h(12): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\3\№4\link visual\link visual\myform.h(14): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\3\№4\link visual\link visual\myform.h(9): warning C4101: i: неиспользованная локальная переменная
+c:\users\user\desktop\3\№4\link visual\link visual\myform.h(340): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\desktop\3\№4\link visual\link visual\myform.h(385): warning C4554: "|": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+c:\users\user\desktop\3\№4\link visual\link visual\myform.h(394): warning C4018: <: несоответствие типов со знаком и без знака
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Link Visual.vcxproj -> C:\Users\user\Desktop\3\№4\Link Visual\Debug\Link Visual.exe
