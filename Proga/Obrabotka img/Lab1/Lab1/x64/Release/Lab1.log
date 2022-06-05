@@ -1,0 +1,18 @@
+﻿  Source.cpp
+c:\users\user\desktop\прога\обработка изображений\lab1\lab1\source.cpp(33): warning C4244: =: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=uchar
+          ]
+c:\users\user\desktop\прога\обработка изображений\lab1\lab1\source.cpp(34): warning C4244: =: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=uchar
+          ]
+c:\users\user\desktop\прога\обработка изображений\lab1\lab1\source.cpp(35): warning C4244: =: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=uchar
+          ]
+Lab2.obj : error LNK2005: "bool __cdecl AddGaussianNoise(class cv::Mat,class cv::Mat &,double,double)" (?AddGaussianNoise@@YA_NVMat@cv@@AEAV12@NN@Z) уже определен в Lab2.obj
+C:\Users\user\Desktop\Прога\Обработка изображений\Lab1\x64\Release\Lab1.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
