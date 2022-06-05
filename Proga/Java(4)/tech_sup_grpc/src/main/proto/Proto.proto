@@ -1,0 +1,56 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+package Server.prt1;
+
+message newZaprosRequest{
+  string name = 1;
+  string email = 2;
+  string date = 3;
+  string text = 4;
+}
+message newZaprosResponse{
+  int32 id = 1;
+}
+message getStatusRequest{
+  int32 id = 1;
+}
+message getStatusResponse{
+  string status = 1;
+}
+message compliteRequest{
+  int32 id = 1;
+}
+message compliteResponse{
+  string res = 1;
+}
+message reOpenRequest{
+  int32 id = 1;
+  string text = 2;
+}
+message reOpenResponse{
+  string res = 1;
+}
+message getAllResponse{
+  string res = 1;
+}
+message atWorkRequest{
+  int32 id = 1;
+}
+message atWorkResponse{
+  string res = 1;
+}
+message doneRequest{
+  int32 id = 1;
+}
+message doneResponse{
+  string res = 1;
+}
+service ProtoServer {
+  rpc newZapros (newZaprosRequest) returns (newZaprosResponse){};
+  rpc getStatus(getStatusRequest) returns (getStatusResponse){};
+  rpc complite (compliteRequest) returns (compliteResponse){};
+  rpc reOpen (reOpenRequest) returns (reOpenResponse){};
+  rpc getAll (google.protobuf.Empty) returns (getAllResponse){};
+  rpc atWork (atWorkRequest) returns (atWorkResponse){};
+  rpc done (doneRequest) returns (doneResponse){};
+}

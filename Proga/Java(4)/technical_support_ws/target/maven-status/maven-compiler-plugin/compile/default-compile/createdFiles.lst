@@ -1,0 +1,5 @@
+SerCli\Server.class
+SerCli\ClientAdmin.class
+Task\Task.class
+SerCli\ClientUser.class
+SerCli\ServInt.class

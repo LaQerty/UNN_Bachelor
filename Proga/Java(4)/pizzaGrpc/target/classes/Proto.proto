@@ -1,0 +1,56 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+package Server.prt1;
+
+message getAllPizzaResponse{
+  string res = 1;
+}
+message addNewPizzaRequest{
+  string name = 1;
+  string about = 2;
+  int32 price = 3;
+}
+message addNewPizzaResponse{
+  int32 id = 1;
+}
+message deletePizzaRequest{
+  int32 id = 1;
+}
+message deletePizzaResponse{
+  string res = 1;
+}
+message changeStatusToDoneRequest{
+  int32 id = 1;
+}
+message changeStatusToDoneResponse{
+  string res = 1;
+}
+message changeStatusToAtWorkRequest{
+  int32 id = 1;
+}
+message changeStatusToAtWorkResponse{
+  string res = 1;
+}
+message makeOrderRequest{
+  string id  = 1;
+  string count = 2;
+}
+message makeOrderResponse{
+  string res  = 1;
+}
+message checkOrderRequest{
+  int32 id = 1;
+}
+message checkOrderResponse{
+  string res = 1;
+}
+
+service ProtoServer {
+  rpc getAllPizza (google.protobuf.Empty) returns (getAllPizzaResponse){};
+  rpc addNewPizza(addNewPizzaRequest) returns (addNewPizzaResponse){};
+  rpc deletePizza (deletePizzaRequest) returns (deletePizzaResponse){};
+  rpc changeStatusToDone (changeStatusToDoneRequest) returns (changeStatusToDoneResponse){};
+  rpc changeStatusToAtWork (changeStatusToAtWorkRequest) returns (changeStatusToAtWorkResponse){};
+  rpc makeOrder (makeOrderRequest) returns (makeOrderResponse){};
+  rpc checkOrder (checkOrderRequest) returns (checkOrderResponse){};
+}

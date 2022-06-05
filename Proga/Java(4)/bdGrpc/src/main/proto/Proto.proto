@@ -1,0 +1,69 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+package ClientServer.prt1;
+
+message addNoteRequest{
+  string name = 1;
+  string text = 2;
+}
+message addNoteResponse{
+  int32 id = 1;
+}
+message addMarkToNoteRequest{
+  int32 id = 1;
+  string marks = 2;
+}
+message addMarkToNoteResponse{
+  string res = 1;
+}
+message addFileToNoteRequest{
+  int32 id = 1;
+  string name = 2;
+  string file = 3;
+}
+message addFileToNoteResponse{
+  string res = 1;
+}
+message addNewMarkRequest{
+  string name = 1;
+}
+message addNewMarkResponse{
+  int32 id = 1;
+}
+message getFileRequest{
+  int32 id = 1;
+  string name = 2;
+}
+message getFileResponse{
+  string file = 1;
+}
+message deleteMarkRequest{
+  int32 id  = 1;
+}
+message deleteMarkResponse{
+  string res  = 1;
+}
+message getAllMarkResponse{
+  string res = 1;
+}
+message getAllNoteResponse{
+  string res = 1;
+}
+message findNoteRequest{
+  int32 id = 1;
+}
+message findNoteResponse{
+  string res = 1;
+}
+
+service ProtoServer {
+  rpc addNote (addNoteRequest) returns (addNoteResponse){};
+  rpc addMarkToNote(addMarkToNoteRequest) returns (addMarkToNoteResponse){};
+  rpc addFileToNote (addFileToNoteRequest) returns (addFileToNoteResponse){};
+  rpc addNewMark (addNewMarkRequest) returns (addNewMarkResponse){};
+  rpc getFile (getFileRequest) returns (getFileResponse){};
+  rpc deleteMark (deleteMarkRequest) returns (deleteMarkResponse){};
+  rpc getAllMark (google.protobuf.Empty) returns (getAllMarkResponse){};
+  rpc getAllNote (google.protobuf.Empty) returns (getAllNoteResponse){};
+  rpc findNote (findNoteRequest) returns (findNoteResponse){};
+}

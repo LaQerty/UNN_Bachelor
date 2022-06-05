@@ -1,0 +1,7 @@
+ClientServer\ServInterface.class
+Test\Test.class
+ClientServer\ClientChild.class
+ClientServer\ClientTeacher.class
+ClientServer\Server.class
+Test\Answer.class
+Test\Question.class

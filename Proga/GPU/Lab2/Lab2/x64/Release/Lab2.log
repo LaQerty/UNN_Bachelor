@@ -1,0 +1,20 @@
+﻿  main.cpp
+c1xx : warning C4199: двухэтапный поиск имен не поддерживается для C++/CLI, C++/CX или OpenMP. Используйте /Zc:twoPhase-
+  cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 220 (OpenCL 2.2)
+c:\users\user\desktop\учеба\прога\gpu\lab2\lab2\main.cpp(231): warning C4101: platformName: неиспользованная локальная переменная
+c:\users\user\desktop\учеба\прога\gpu\lab2\lab2\main.cpp(29): warning C4244: =: преобразование "unsigned int" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
+  c:\users\user\desktop\учеба\прога\gpu\lab2\lab2\main.cpp(252): note: выполняется компиляция ссылки на экземпляр шаблон функции "void getVector<float>(std::vector<float,std::allocator<_Ty>> &,int)"
+          with
+          [
+              _Ty=float
+          ]
+  Создание кода
+  1 of 254 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Lab2.vcxproj -> C:\Users\user\Desktop\Учеба\Прога\GPU\Lab2\x64\Release\Lab2.exe

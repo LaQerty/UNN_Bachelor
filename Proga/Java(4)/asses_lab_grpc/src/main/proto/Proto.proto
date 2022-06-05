@@ -1,0 +1,61 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+package ClientServer.prt1;
+
+message addFileRequest{
+  string name = 1;
+  string lab = 2;
+}
+message addFileResponse{
+  int32 id = 1;
+}
+message getIdForEstimateRequest{
+  string name = 1;
+}
+message getIdForEstimateResponse{
+  int32 id1 = 1;
+  int32 id2 = 2;
+  int32 id3 = 3;
+}
+message getFileRequest{
+  int32 id = 1;
+}
+message getFileResponse{
+  string lab = 1;
+}
+message setMarkRequest{
+  int32 id = 1;
+  string name = 2;
+  int32 mark = 3;
+}
+message setMarkResponse{
+  string res = 1;
+}
+message getAverageMarkRequest{
+  int32 id = 1;
+}
+message getAverageMarkResponse{
+  int32 res = 1;
+}
+message getAllLabResponse{
+  string name = 1;
+  int32 id  = 2;
+}
+message getAllMarkRequest{
+  int32 id = 1;
+}
+message getAllMarkResponse{
+  string name = 1;
+  string mark  = 2;
+}
+
+service ProtoServer {
+  rpc addFile (addFileRequest) returns (addFileResponse){};
+  rpc getIdForEstimate(getIdForEstimateRequest) returns (getIdForEstimateResponse){};
+  rpc getFile (getFileRequest) returns (getFileResponse){};
+  rpc setMark (setMarkRequest) returns (setMarkResponse){};
+  rpc getAverageMark (getAverageMarkRequest) returns (getAverageMarkResponse){};
+  rpc getAllLab (google.protobuf.Empty) returns (getAllLabResponse){};
+  rpc getAllMark (getAllMarkRequest) returns (getAllMarkResponse){};
+ 
+}

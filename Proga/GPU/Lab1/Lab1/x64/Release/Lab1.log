@@ -1,0 +1,8 @@
+﻿  main.cpp
+  cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 220 (OpenCL 2.2)
+  Создание кода
+  1 of 235 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Lab1.vcxproj -> C:\Users\user\Desktop\Учеба\Прога\GPU\Lab1\x64\Release\Lab1.exe

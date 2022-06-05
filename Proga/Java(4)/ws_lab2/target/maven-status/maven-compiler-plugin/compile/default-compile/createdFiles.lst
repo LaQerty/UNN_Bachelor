@@ -1,0 +1,8 @@
+webService\ws\ServerService.class
+Server\ServerInter.class
+webService\ws\ObjectFactory.class
+Server\Server.class
+Client\ClientTeach.class
+webService\ws\Server.class
+webService\ws\SayHello.class
+Client\ClientChild.class
